@@ -1,10 +1,14 @@
 #include <gtk/gtk.h>
-
-static void
+#include <stdio.h>
+#include <wchar.h>
+#include <locale.h>
+char 
 print_hello (GtkWidget *widget,
              gpointer   data)
 {
-  g_print ("Hello World\n");
+ setlocale(LC_CTYPE, "");
+ wchar_t a =0x0D05;
+  g_print(a);
 }
 
 static void
