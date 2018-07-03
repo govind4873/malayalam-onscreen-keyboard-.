@@ -9,7 +9,7 @@
         <child>
           <object id="button1" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">അ /ആ</property>
+            <property name="label">അ</property>
           </object>
           <packing>
             <property name="left-attach">0</property>
@@ -19,7 +19,7 @@
         <child>
           <object id="button2" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">ഇ/ഈ</property>
+            <property name="label">ആ</property>
           </object>
           <packing>
             <property name="left-attach">1</property>
@@ -29,7 +29,7 @@
 	<child>
           <object id="button3" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">ഉ /ഊ</property>
+            <property name="label">ഇ</property>
           </object>
           <packing>
             <property name="left-attach">2</property>
@@ -39,7 +39,7 @@
         <child>
           <object id="button4" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">ഋ</property>
+            <property name="label">ഈ</property>
           </object>
           <packing>
             <property name="left-attach">3</property>
@@ -49,7 +49,7 @@
         <child>
           <object id="button5" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">എ /ഏ</property>
+            <property name="label">ഉ</property>
           </object>
           <packing>
             <property name="left-attach">4</property>
@@ -59,7 +59,7 @@
         <child>
           <object id="button6" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">ഐ </property>
+            <property name="label">ഊ</property>
           </object>
           <packing>
             <property name="left-attach">5</property>
@@ -69,7 +69,7 @@
 	<child>
           <object id="button7" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">ഒ /ഓ</property>
+            <property name="label">ഋ</property>
           </object>
           <packing>
             <property name="left-attach">6</property>
@@ -79,7 +79,7 @@
         <child>
           <object id="button8" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">ഔ</property>
+            <property name="label">എ</property>
           </object>
           <packing>
             <property name="left-attach">7</property>
@@ -87,9 +87,97 @@
           </packing>
         </child>
 	<child>
-          <object id="quit" class="GtkButton">
+          <object id="button9" class="GtkButton">
             <property name="visible">True</property>
-            <property name="label">Quit</property>
+            <property name="label">ഏ</property>
+          </object>
+          <packing>
+            <property name="left-attach">8</property>
+            <property name="top-attach">0</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button10" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഐ</property>
+          </object>
+          <packing>
+            <property name="left-attach">9</property>
+            <property name="top-attach">0</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button11" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഒ</property>
+          </object>
+          <packing>
+            <property name="left-attach">10</property>
+            <property name="top-attach">0</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button12" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">11</property>
+            <property name="top-attach">0</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button13" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">12</property>
+            <property name="top-attach">0</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+        <child>
+          <object id="button14" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ാ</property>
+          </object>
+          <packing>
+            <property name="left-attach">13</property>
+            <property name="top-attach">0</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button15" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ി</property>
+          </object>
+          <packing>
+            <property name="left-attach">14</property>
+            <property name="top-attach">0</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button16" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ീ</property>
+          </object>
+          <packing>
+            <property name="left-attach">15</property>
+            <property name="top-attach">0</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_1" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ക</property>
           </object>
           <packing>
             <property name="left-attach">0</property>
@@ -97,6 +185,716 @@
             <property name="width">1</property>
           </packing>
         </child>
+//////////////////////////////
+	<child>
+          <object id="button2_2" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഖ</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_3" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഗ</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_4" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഘ</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_5" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ങ</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_6" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">5</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_7" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ച</property>
+          </object>
+          <packing>
+            <property name="left-attach">6</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_8" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഛ</property>
+          </object>
+          <packing>
+            <property name="left-attach">7</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_9" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ജ</property>
+          </object>
+          <packing>
+            <property name="left-attach">8</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_10" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഝ</property>
+          </object>
+          <packing>
+            <property name="left-attach">9</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_11" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഞ</property>
+          </object>
+          <packing>
+            <property name="left-attach">10</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_12" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">11</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_13" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">12</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_14" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ു</property>
+          </object>
+          <packing>
+            <property name="left-attach">13</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_15" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൂ</property>
+          </object>
+          <packing>
+            <property name="left-attach">14</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button2_16" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൃ</property>
+          </object>
+          <packing>
+            <property name="left-attach">15</property>
+            <property name="top-attach">1</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+
+	<child>
+          <object id="button3_1" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ട</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_2" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഠ</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_3" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഡ</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_4" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഢ</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_5" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ണ</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_6" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">5</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_7" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ത</property>
+          </object>
+          <packing>
+            <property name="left-attach">6</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_8" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഥ</property>
+          </object>
+          <packing>
+            <property name="left-attach">7</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_9" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ദ</property>
+          </object>
+          <packing>
+            <property name="left-attach">8</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_10" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ധ</property>
+          </object>
+          <packing>
+            <property name="left-attach">9</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_11" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ന</property>
+          </object>
+          <packing>
+            <property name="left-attach">10</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+        <child>
+          <object id="button3_12" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">11</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_13" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">12</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_14" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">െ</property>
+          </object>
+          <packing>
+            <property name="left-attach">13</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_15" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">േ</property>
+          </object>
+          <packing>
+            <property name="left-attach">14</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button3_16" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൈ</property>
+          </object>
+          <packing>
+            <property name="left-attach">15</property>
+            <property name="top-attach">2</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+///////////////////////
+	<child>
+          <object id="button4_1" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">പ</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_2" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഫ</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_3" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ബ</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_4" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഭ</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_5" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">മ</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_6" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">5</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_7" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൺ</property>
+          </object>
+          <packing>
+            <property name="left-attach">6</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_8" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൻ</property>
+          </object>
+          <packing>
+            <property name="left-attach">7</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_9" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ർ</property>
+          </object>
+          <packing>
+            <property name="left-attach">8</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_10" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൽ</property>
+          </object>
+          <packing>
+            <property name="left-attach">9</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_11" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൾ</property>
+          </object>
+          <packing>
+            <property name="left-attach">10</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+        <child>
+          <object id="button4_12" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">11</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_13" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">12</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_14" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">്</property>
+          </object>
+          <packing>
+            <property name="left-attach">13</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_15" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ോ</property>
+          </object>
+          <packing>
+            <property name="left-attach">14</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button4_16" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൌ</property>
+          </object>
+          <packing>
+            <property name="left-attach">15</property>
+            <property name="top-attach">3</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_1" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">യ</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_2" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ര</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_3" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ല</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_4" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">വ</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_5" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ശ</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_6" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഷ</property>
+          </object>
+          <packing>
+            <property name="left-attach">5</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_7" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">സ</property>
+          </object>
+          <packing>
+            <property name="left-attach">6</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_8" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഹ</property>
+          </object>
+          <packing>
+            <property name="left-attach">7</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_9" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ള</property>
+          </object>
+          <packing>
+            <property name="left-attach">8</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_10" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ഴ</property>
+          </object>
+          <packing>
+            <property name="left-attach">9</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_11" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">റ</property>
+          </object>
+          <packing>
+            <property name="left-attach">10</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+        <child>
+          <object id="button5_12" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">11</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_13" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label"> </property>
+          </object>
+          <packing>
+            <property name="left-attach">12</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_14" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">,</property>
+          </object>
+          <packing>
+            <property name="left-attach">13</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_15" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ൗ</property>
+          </object>
+          <packing>
+            <property name="left-attach">14</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button5_16" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">ം</property>
+          </object>
+          <packing>
+            <property name="left-attach">15</property>
+            <property name="top-attach">4</property>
+            <property name="width">1</property>
+          </packing>
+        </child>
+	<child>
+          <object id="button6_1" class="GtkButton">
+            <property name="visible">True</property>
+            <property name="label">അകലം</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">5</property>
+            <property name="width">10</property>
+          </packing>
+        </child>
+		
+
+////////////////////////////////
       </object>
       <packing>
       </packing>
